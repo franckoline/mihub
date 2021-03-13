@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+  }
+  .footer {
+      background-color: #039be5;
+      // background-color: #01579b;
+    }
+    .footer * {
+      color: #fff;
+      font-size: 0.9123rem;
+    }
+    .nearby-footer-logo {
+      width: 8rem;
+    }
+    .community-search {
+      padding: 10px;
+      border-radius: 7px 0px 0px 7px;
+      width: 70%;
+      background-color: transparent;
+    }
+    .footer .fa-search {
+      width: 30%;
+      margin-top: 3px;
+      padding: 10px;
+      color: #01579b;
+    }
