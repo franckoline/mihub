@@ -5,7 +5,7 @@
     <mat-toolbar>
       <div>
         <a href="">
-          <img class="logo" src="assets/logo/" alt="MIHubng">
+          <img class="logo" src="assets/logo/mihub_light.png" alt="MIHubng">
         </a>
       </div>
     </mat-toolbar>
@@ -72,13 +72,13 @@
     </mat-toolbar>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar class="position-fixed"  color="primary">
       <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon-center">menu</mat-icon>
       </button>
       <a href="">
-        <img class="logo" src="assets/logo/" alt="MIHubng">
+        <img class="logo" src="assets/logo/mihub_dark.png" alt="MIHubng">
       </a>
       <div class="spacer"></div>
       <div fxHide.lt-md="true" class="nav">
